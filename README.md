@@ -15,7 +15,6 @@ Some things RCO™ currently does:
 - Disables AbuseReportScreenshot
 - Enables font and texture item preloading
 - Enables FULL graphics quality options (21 instead of 10!)
-- Enables QuickGameLaunch (RCO™ 2 only)
 - Enables BatchAssetApi
 
 ## Installation
