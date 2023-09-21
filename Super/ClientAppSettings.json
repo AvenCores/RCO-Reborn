@@ -1,5 +1,4 @@
 {
-  "FStringSupersonicFlagUpdateVersion": "3",
   "FIntTerrainOTAMaxTextureSize": 1024,
   "FIntUITextureMaxRenderTextureSize": 1024,
   "FIntMeshContentProviderForceCacheSize": 268435456,
