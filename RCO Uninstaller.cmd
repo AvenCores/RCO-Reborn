@@ -25,3 +25,5 @@ for /d %%i in ("C:\Program Files\Roblox\Versions\*") do (
 if exist "%folder%\ClientSettings\ClientAppSettings.json" (
     del "%folder%\ClientSettings\ClientAppSettings.json"
 )
+
+echo Press any key to continue... & pause >nul

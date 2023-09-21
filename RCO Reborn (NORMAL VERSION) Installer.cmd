@@ -1,7 +1,7 @@
 @echo off
 
 echo.
-echo RCO Reborn (NORMAL VERSIOIN) was created and is maintained by avencores
+echo RCO Reborn (NORMAL VERSION) was created and is maintained by avencores
 echo.
 
 echo.
@@ -39,11 +39,11 @@ powershell.exe -Command "& {(New-Object System.Net.WebClient).DownloadFile('http
 if %errorlevel% EQU 0 (
     echo ClientAppSettings.json downloaded successfully!
     echo.
-    echo SUCCESS: RCO Reborn (NORMAL VERSIOIN) installation completed!
+    echo SUCCESS: RCO Reborn (NORMAL VERSION) installation completed!
 ) else (
     echo Failed to download ClientAppSettings.json.
     echo.
-    echo ERROR: RCO Reborn (NORMAL VERSIOIN) installation failed!
+    echo ERROR: RCO Reborn (NORMAL VERSION) installation failed!
 )
 
 echo Press any key to continue... & pause >nul
