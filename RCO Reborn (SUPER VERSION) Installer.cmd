@@ -38,12 +38,13 @@ echo Downloading ClientAppSettings.json file...
 powershell.exe -Command "& {(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AvenCores/RCO-Reborn/main/Super/ClientAppSettings.json', '%folder%\ClientSettings\ClientAppSettings.json')}"
 if %errorlevel% EQU 0 (
     echo ClientAppSettings.json downloaded successfully!
-    echo.
-    echo SUCCESS: RCO Reborn (SUPER VERSION) installation completed!
+    cls
+    echo SUCCESS: RCO Reborn installation completed!
 ) else (
-    echo Failed to download ClientAppSettings.json.
-    echo.
-    echo ERROR: RCO Reborn (SUPER VERSION) installation failed!
+    echo Failed to download ClientAppSettings.json. Please report this issue in the #help-me channel of the Discord server.
+    cls
+    echo ERROR: RCO Reborn installation failed!
 )
 
+echo.
 echo Press any key to continue... & pause >nul
