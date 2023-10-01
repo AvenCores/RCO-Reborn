@@ -15,14 +15,14 @@ for /d %%i in ("%localappdata%\Roblox\Versions\*") do (
     )
 )
 
-for /d %%i in ("C:\Program Files (x86)\Roblox\Versions\*") do (
+for /d %%i in ("%cd:~0,2%\Program Files (x86)\Roblox\Versions\*") do (
     if exist "%%i\RobloxPlayerBeta.exe" (
         set folder=%%i
         goto :NextStep
     )
 )
 
-for /d %%i in ("C:\Program Files\Roblox\Versions\*") do (
+for /d %%i in ("%cd:~0,2%\Program Files\Roblox\Versions\*") do (
     if exist "%%i\RobloxPlayerBeta.exe" (
         set folder=%%i
         goto :NextStep
@@ -38,11 +38,11 @@ echo Downloading ClientAppSettings.json file...
 powershell.exe -Command "& {(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AvenCores/RCO-Reborn/main/Normal/ClientAppSettings.json', '%folder%\ClientSettings\ClientAppSettings.json')}"
 if %errorlevel% EQU 0 (
     echo ClientAppSettings.json downloaded successfully!
-    cls
+    echo.
     echo SUCCESS: RCO Reborn installation completed!
 ) else (
-    echo Failed to download ClientAppSettings.json. Please report this issue in the #help-me channel of the Discord server.
-    cls
+    echo Failed to download ClientAppSettings.json.
+    echo.
     echo ERROR: RCO Reborn installation failed!
 )
 
