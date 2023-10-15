@@ -26,8 +26,8 @@ for /d %%i in ("%cd:~0,2%\Program Files\Roblox\Versions\*") do (
 )
 
 :NextStep
-if exist "%folder%\ClientSettings\ClientAppSettings.json" (
-    del "%folder%\ClientSettings\ClientAppSettings.json"
+if exist "%folder%\ClientSettings\" (
+    rmdir "%folder%\ClientSettings\" /s /q
 )
 
 echo RCO Reborn has been successfully deleted!
