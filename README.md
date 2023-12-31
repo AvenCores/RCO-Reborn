@@ -1,6 +1,6 @@
 # Improved README File
 
-![Youtube](https://img.shields.io/youtube/channel/subscribers/UCxkVtdh5X9k4erSXmc3COjw?style=social) ![Telegram](https://img.shields.io/badge/Telegram-Join%20us-blue?logo=telegram) ![VK](https://img.shields.io/badge/VK-Follow%20us-blue?logo=vk&logoColor=white)
+![Youtube](https://img.shields.io/youtube/channel/subscribers/@avencores) ![Telegram](https://img.shields.io/badge/Telegram-Join%20us-blue?logo=telegram) ![VK](https://img.shields.io/badge/VK-Follow%20us-blue?logo=vk&logoColor=white)
 
 **Roblox Client Optimizer (RCO™)** is a tool for configuring FFlags that optimizes your Roblox client, providing a smoother and enhanced gaming performance.
 
